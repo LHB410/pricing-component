@@ -1,0 +1,52 @@
+.card-container {
+	/*background-color: #F7D08A;*/
+	padding: 16px;
+	margin: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+  border: 1px solid black;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px black;
+  margin: 8px;
+	padding: 8px;
+	width: fit-content;
+	background-color: ghostwhite;
+}
+
+.card h1 {
+    margin-top: 0px;
+}
+.card p {
+    margin-top: 0px;
+}
+
+.card:hover {
+	background-color: #E5890A;
+	color: ghostwhite;
+}
+
+
+.fas.fa-check {
+	color: darkgreen;
+   margin-right: 8px;
+}
+
+.fas.fa-times {
+	color: darkred;
+  margin-right: 8px;
+}
+
+.fa-ul {
+	display: inline-block;
+	margin: 0px;
+	padding: 4px;
+}
+
+.fa-ul > li {
+    position: relative;
+    padding-bottom: 8px;
+}
